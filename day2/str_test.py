@@ -1,0 +1,36 @@
+#字符串
+name="\tLiweifan,{job},{year}"
+print(name.capitalize())
+print(name.count("i"))
+print(name.center(30,"-"))
+print(name.endswith("an"))
+print(name.expandtabs(tabsize=12))
+print(name.find("i"))
+print(name[name.find("i"):])#切片
+print(name[3:4])
+print(name.format(job="it",year=10))
+print(name.format_map({"job":"itt","year":12}))#传字典
+print(name.isalnum())
+print("1a".isalnum())
+print("sss".isalpha())
+print("1123".isdecimal())
+print("11".isdigit())
+print("1_ss".isidentifier())#判断是不是合格的标识符
+print("156789.8888".isnumeric())
+print(" ".isspace())
+print("F I".istitle())
+print("JJ".isupper())#大写
+print(",".join(["2","3","5"]))
+print(name.ljust(60,"@"))
+print(name.rjust(60,"@"))
+print("LIW".lower())
+print("lwi".upper())
+print("\nLIWEIFAN".lstrip())
+print("LIWEIFAN\n".rstrip())
+print("  liweifan\n".strip())
+p=str.maketrans("abcdef","123456")
+print("adcvf".translate(p))
+print("liwei".replace("i",'I',1))
+print("lwf".rfind('l'))
+print('1+2+3+4'.split('+'))
+print('liweifan'.zfill(20))
