@@ -10,7 +10,6 @@ def fun1(x,y):
 #fun1(10,22)
 #fun1(y=10,x=10)
 fun1(4,y=10)
-
 def fun2(x,y,z=10):#形参z=10为默认参数
     print(x + y+z)
 fun2(2,13,10)
