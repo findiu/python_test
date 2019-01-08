@@ -18,5 +18,18 @@ fun2(3,y=10,z=20)#关键字参数后面不能接位置参数
 fun2(2,4)
 def connet(hostname,port=3306):
     pass
-def name():
-    pass
+def name(*args):#参数组，可以传入不定变量
+    print(args,type(args))#接受n个关键字参数，转换为元组
+name(1,2,3,4,5,6,7)
+name(*[2,3,5,6])
+def name1(**kwargs): #把n个关键字参数传人，转换为字典
+    print(kwargs,type(kwargs))
+name1(names='lwf',age=5,sex='n')
+def set(name,t=10,*args,**kwargs):
+    print(name)
+    print(t)
+    print(args)
+    print(kwargs)
+set('lwf',2,3,4,sex='f',age=10)
+
+
