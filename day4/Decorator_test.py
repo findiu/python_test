@@ -18,15 +18,34 @@ def foo():
         print("1")
     dar()
 foo()'''
+def timer(fun):
+    def res(*args,**kwargs):
+        start_time = time.time()
+        fun(*args,**kwargs)
+        stop_time = time.time()
+        print("相差时间：", stop_time-start_time)
+    return res
+@timer
+def test1():
+    time.sleep(3)
+    print('test1')
+#def test2():
+ #   time.sleep(3)
+ #   print('test2')
+#test1 = timer(test1)
+#print(test1)
+#print(timer(test1))
+test1()#test1其实执行了res
+@timer
+def test2(name):
+    time.sleep(3)
+    print('test1:',name)
+test2('lwf')
 
-def log(func):
-    def wrapp():
-        print("wrapp")
-        return func
-    return wrapp
-def now():
-    print("now")
-now=log(now)
-now()
+
+
+
+
+
 
 

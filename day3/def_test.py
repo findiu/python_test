@@ -1,4 +1,4 @@
-def fun():
+'''def fun():
     "ddd"
     print('www')
     return 0
@@ -17,7 +17,7 @@ fun2(2,3,z=10)
 fun2(3,y=10,z=20)#关键字参数后面不能接位置参数
 fun2(2,4)
 def connet(hostname,port=3306):
-    pass
+    pass'''
 def name(*args):#参数组，可以传入不定变量
     print(args,type(args))#接受n个关键字参数，转换为元组
 name(1,2,3,4,5,6,7)
