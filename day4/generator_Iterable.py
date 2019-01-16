@@ -42,5 +42,7 @@ for t in triangles():
      if n == 10:
         break
 
-
+#可以直接作用for循环的对象都叫可迭代对象（如集合数据类型list,tuple,dict set str,和生成器，generator）
+from collections import Iterable
+print(isinstance([],Iterable))#判断是否为迭代对象
 
