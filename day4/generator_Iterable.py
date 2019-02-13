@@ -1,7 +1,10 @@
 #列表生成式
 #print([i*2 for i in range(10)])
 #生成器:只有在调用时才会生成相应的数据，
-#a1 = (i*2 for i in range(10000))
+a1 = (i*2 for i in range(10000))
+print(a1.__next__())
+print(a1.__next__())
+print(a1.__next__())
 '''for i in a:
    print(i)
 print(next(a))
@@ -12,6 +15,7 @@ print(aa)
 print(bb)'''
 '''def fib(max):
     n, a, b = 0, 0, 1
+    
     while n < max:
         print(b)
         a, b = b, a + b
@@ -44,5 +48,6 @@ for t in triangles():
 
 #可以直接作用for循环的对象都叫可迭代对象（如集合数据类型list,tuple,dict set str,和生成器，generator）
 from collections import Iterable
-print(isinstance([],Iterable))#判断是否为迭代对象
+print(isinstance([],Iterable))#判断是否为
+
 
