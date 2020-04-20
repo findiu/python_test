@@ -24,4 +24,4 @@ print(std1.get_score())
 #std1.print_score()
 #std2 = Student('wangjie', 80)
 #std2.print_score()
-#111
+
