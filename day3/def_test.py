@@ -33,3 +33,4 @@ def set(name,t=10,*args,**kwargs):
 set('lwf',2,3,4,sex='f',age=10)
 
 
+
