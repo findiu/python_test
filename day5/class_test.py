@@ -25,3 +25,4 @@ print(std1.get_score())
 #std2 = Student('wangjie', 80)
 #std2.print_score()
 
+
