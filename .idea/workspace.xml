@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="143deeb1-adff-40a6-8b80-2eaf3150549f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/test.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -25,8 +28,10 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -34,7 +39,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -180,7 +185,9 @@
       <workItem from="1590047284891" duration="844000" />
       <workItem from="1590461835229" duration="76000" />
       <workItem from="1590461979062" duration="4106000" />
-      <workItem from="1590586905530" duration="392000" />
+      <workItem from="1590586905530" duration="576000" />
+      <workItem from="1590644663172" duration="235000" />
+      <workItem from="1590645306333" duration="2687000" />
     </task>
     <task id="LOCAL-00001" summary="11">
       <created>1587353077530</created>
@@ -259,7 +266,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590586924032</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="error">
+      <created>1590587308426</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1590587308426</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -271,6 +285,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="error" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="552" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1590649910243">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1590649910243" />
     <state x="731" y="325" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1587434241526">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -279,11 +297,15 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="725" y="116" key="#for_test/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1587353003760" />
-    <state x="627" y="88" key="CommitChangelistDialog2" timestamp="1590586923017">
+    <state x="627" y="88" key="CommitChangelistDialog2" timestamp="1590587307687">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="627" y="88" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1590473629534" />
-    <state x="627" y="88" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1590586923017" />
+    <state x="627" y="88" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1590587307687" />
+    <state width="254" height="195" key="DatabaseViewActions_Filter" timestamp="1590649946042">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="254" height="195" key="DatabaseViewActions_Filter/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1590649946042" />
     <state x="808" y="279" key="FileChooserDialogImpl" timestamp="1587435973098">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -328,16 +350,20 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1340" height="328" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1587436169764" />
-    <state x="488" y="169" key="SettingsEditor" timestamp="1590587298167">
+    <state width="220" height="477" key="HiddenNamespacesPopup" timestamp="1590649773858">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="488" y="169" key="SettingsEditor/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1590046518006" />
+    <state width="220" height="477" key="HiddenNamespacesPopup/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1590649773858" />
+    <state x="488" y="169" key="SettingsEditor" timestamp="1590645592201">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="488" y="169" key="SettingsEditor/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1590645592201" />
     <state x="488" y="169" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1590587298167" />
-    <state x="621" y="258" key="Vcs.Push.Dialog.v2" timestamp="1590587112473">
+    <state x="621" y="258" key="Vcs.Push.Dialog.v2" timestamp="1590587310792">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="621" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1590046326987" />
-    <state x="621" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1590587112473" />
+    <state x="621" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1590587310792" />
     <state x="822" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1590587027091">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
