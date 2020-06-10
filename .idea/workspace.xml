@@ -1,10 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="143deeb1-adff-40a6-8b80-2eaf3150549f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/pymysql_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="143deeb1-adff-40a6-8b80-2eaf3150549f" name="Default Changelist" comment="error" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,6 +46,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -284,11 +300,29 @@
       <option name="project" value="LOCAL" />
       <updated>1590714714935</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="error">
+      <created>1591779196890</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1591779196890</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="11" />
@@ -296,6 +330,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="error" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="842" y="382" key="#Notifications" timestamp="1591779228350">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="842" y="382" key="#Notifications/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1591779228350" />
     <state x="552" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1590721481655">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -329,25 +367,25 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="832" y="417" width="256" height="297" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1590587178589" />
-    <state width="1340" height="141" key="GridCell.Tab.0.bottom" timestamp="1591348542021">
+    <state width="1362" height="266" key="GridCell.Tab.0.bottom" timestamp="1591779155394">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1340" height="141" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1591348542021" />
+    <state width="1362" height="266" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1591779155394" />
     <state width="669" height="171" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1590806087202" />
-    <state width="1340" height="141" key="GridCell.Tab.0.center" timestamp="1591348542021">
+    <state width="1362" height="266" key="GridCell.Tab.0.center" timestamp="1591779155394">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1340" height="141" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1591348542021" />
+    <state width="1362" height="266" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1591779155394" />
     <state width="669" height="171" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1590806087201" />
-    <state width="1340" height="141" key="GridCell.Tab.0.left" timestamp="1591348542021">
+    <state width="1362" height="266" key="GridCell.Tab.0.left" timestamp="1591779155393">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1340" height="141" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1591348542021" />
+    <state width="1362" height="266" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1591779155393" />
     <state width="669" height="171" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1590806087201" />
-    <state width="1340" height="141" key="GridCell.Tab.0.right" timestamp="1591348542021">
+    <state width="1362" height="266" key="GridCell.Tab.0.right" timestamp="1591779155394">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1340" height="141" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1591348542021" />
+    <state width="1362" height="266" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1591779155394" />
     <state width="669" height="171" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1590806087202" />
     <state width="1340" height="328" key="GridCell.Tab.1.bottom" timestamp="1587436169764">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -374,15 +412,15 @@
     </state>
     <state x="488" y="169" key="SettingsEditor/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1590645592201" />
     <state x="488" y="169" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1590587298167" />
-    <state x="621" y="258" key="Vcs.Push.Dialog.v2" timestamp="1590714719577">
+    <state x="621" y="258" key="Vcs.Push.Dialog.v2" timestamp="1591779200114">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="621" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1590714719577" />
+    <state x="621" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1591779200114" />
     <state x="621" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1590587310792" />
-    <state x="822" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1590587027091">
+    <state x="822" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1591779171441">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="822" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1590473622878" />
+    <state x="822" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1591779171441" />
     <state x="822" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1590587027091" />
   </component>
   <component name="XDebuggerManager">
