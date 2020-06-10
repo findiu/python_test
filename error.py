@@ -6,5 +6,5 @@ try:
 except ZeroDivisionError:
     print("age不能为0")
 except ValueError:
-    print("age只能为数字1")
+    print("age只能为数字")
 
